@@ -3,8 +3,8 @@
 DanDanPlay MVVM模板插件，用于Android Studio4.1+版本，快速生成Actvity/Fragment、ViewModel、布局文件
 
 <div>
-	<img src="https://github.com/xyoye/AndroidStudioTemplate/blob/main/ScreenShot/template_location.png" width="400px">
-	<img src="https://github.com/xyoye/AndroidStudioTemplate/blob/main/ScreenShot/template_detail.png" width="400px">
+	<img src="https://github.com/xyoye/MVVMTemplate/blob/master/ScreenShot/template_location.png" width="400px">
+	<img src="https://github.com/xyoye/MVVMTemplate/blob/master/ScreenShot/template_detail.png" width="400px">
 </div>
 
 ## Build Plugin
