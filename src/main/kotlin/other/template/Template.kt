@@ -7,11 +7,8 @@ import other.template.utils.TemplateType
 
 val MVVMTemplateData
     get() = template {
-        revision = 2
         name = "MVVMTemplate"
         description = "Create a new DanDanPlay MVVM module from template"
-        minApi = 16
-        minBuildApi = 16
         category = Category.Other // Check other categories
         formFactor = FormFactor.Mobile
         screens = listOf(WizardUiContext.FragmentGallery, WizardUiContext.MenuEntry,
