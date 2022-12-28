@@ -1,4 +1,4 @@
-package other.template.activity
+package com.xyoye.dandanplay.template.activity
 
 import com.android.tools.idea.wizard.template.classToResource
 import com.android.tools.idea.wizard.template.underscoreToCamelCase
@@ -7,13 +7,13 @@ import com.android.tools.idea.wizard.template.underscoreToCamelCase
  * Created by xyoye on 2021/1/16.
  */
 
-fun MVVMActivity(
+fun mvvmActivity(
         packageName: String,
         folderName: String,
         layoutName: String,
         activityName: String,
         viewModelName: String
-) = """package $packageName.ui.activities.${folderName.toLowerCase()}
+) = """package $packageName.ui.activities.${folderName}
 
 import com.xyoye.common_component.base.BaseActivity
 

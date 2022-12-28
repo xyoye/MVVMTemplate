@@ -1,1 +1,1 @@
-rootProject.name = "MVVMTemplate"
+rootProject.name = "DanDanPlayTemplate"

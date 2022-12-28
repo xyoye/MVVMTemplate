@@ -1,10 +1,10 @@
-package other.template.fragment
+package com.xyoye.dandanplay.template.activity
 
 /**
  * Created by xyoye on 2021/1/16.
  */
 
-fun MVVMFragmentLayout(
+fun mvvmActivityLayout(
         packageName: String,
         folderName: String,
         viewModelName: String
@@ -14,11 +14,11 @@ fun MVVMFragmentLayout(
 
     <data>
 
-        <import type="${packageName}.ui.fragment.${folderName.toLowerCase()}.${viewModelName}" />
+        <import type="$packageName.ui.activities.${folderName}.$viewModelName" />
 
         <variable
             name="viewModel"
-            type="${packageName}.ui.fragment.${folderName.toLowerCase()}.${viewModelName}" />
+            type="$packageName.ui.activities.${folderName}.$viewModelName" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -1,4 +1,4 @@
-package com.github.xyoye.template
+package com.xyoye.dandanplay.plugin
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls
@@ -13,9 +13,4 @@ object MyBundle : AbstractBundle(BUNDLE) {
     @JvmStatic
     fun message(@PropertyKey(resourceBundle = BUNDLE) key: String, vararg params: Any) =
         getMessage(key, *params)
-
-    @Suppress("SpreadOperator")
-    @JvmStatic
-    fun messagePointer(@PropertyKey(resourceBundle = BUNDLE) key: String, vararg params: Any) =
-        getLazyMessage(key, *params)
 }

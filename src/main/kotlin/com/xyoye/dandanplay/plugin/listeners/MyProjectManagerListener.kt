@@ -1,6 +1,6 @@
-package com.github.xyoye.template.listeners
+package com.xyoye.dandanplay.plugin.listeners
 
-import com.github.xyoye.template.services.MyProjectService
+import com.xyoye.dandanplay.plugin.services.MyProjectService
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
 

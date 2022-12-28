@@ -1,6 +1,6 @@
-package com.github.xyoye.template.services
+package com.xyoye.dandanplay.plugin.services
 
-import com.github.xyoye.template.MyBundle
+import com.xyoye.dandanplay.plugin.MyBundle
 
 class MyApplicationService {
 

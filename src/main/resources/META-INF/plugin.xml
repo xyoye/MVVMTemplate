@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>com.github.xyoye.template</id>
-    <name>MVVMTemplate</name>
+    <id>com.xyoye.dandanplay.plugin</id>
+    <name>DanDanPlayTemplate</name>
     <vendor>xyoye</vendor>
 
     <!-- Product and plugin compatibility requirements -->
@@ -11,16 +11,16 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.xyoye.template.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.xyoye.template.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.xyoye.dandanplay.plugin.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.xyoye.dandanplay.plugin.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.xyoye.template.listeners.MyProjectManagerListener"
+        <listener class="com.xyoye.dandanplay.plugin.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 
     <extensions defaultExtensionNs="com.android.tools.idea.wizard.template">
-        <wizardTemplateProvider implementation="other.WizardTemplateProviderImpl" />
+        <wizardTemplateProvider implementation="com.xyoye.dandanplay.template.DanDanPlayTemplateProviderImpl" />
     </extensions>
 </idea-plugin>

@@ -1,24 +1,24 @@
-package other.template.activity
+package com.xyoye.dandanplay.template.fragment
 
 /**
  * Created by xyoye on 2021/1/16.
  */
 
-fun MVVMActivityLayout(
-        packageName: String,
-        folderName: String,
-        viewModelName: String
+fun mvvmFragmentLayout(
+    packageName: String,
+    folderName: String,
+    viewModelName: String
 ) = """<?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
 
-        <import type="$packageName.ui.activities.${folderName.toLowerCase()}.$viewModelName" />
+        <import type="${packageName}.ui.fragment.${folderName}.${viewModelName}" />
 
         <variable
             name="viewModel"
-            type="$packageName.ui.activities.${folderName.toLowerCase()}.$viewModelName" />
+            type="${packageName}.ui.fragment.${folderName}.${viewModelName}" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
